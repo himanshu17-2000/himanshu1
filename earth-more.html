@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>EARTHBOOT MORE </title>
+    <script src="earthboot.js"></script>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #more-body-1 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-image: url("more-bg-1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        padding: 0.5%;
+
+    }
+
+    #more-1 {
+        position: relative;
+        top: 0px;
+        left: -100%;
+        max-width: 100%;
+        animation: slide 1s forwards 1, zoom 1s 1s forwards;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        text-align: center;
+    }
+
+    #more-img-1 {
+        object-fit: cover;
+        width: 100%;
+        height: 800px;
+
+    }
+
+    .peudo {
+        position: absolute;
+        top: -5%;
+        left: 15%;
+    }
+
+    .peudo h1 {
+        font-weight: bold;
+        font-size: 60px;
+       
+        text-shadow: 2px 2px 5px slateblue;
+        font-size: 3vw;
+    }
+
+    @keyframes slide {
+        0% {
+            left: -100%;
+
+        }
+
+        100% {
+            left: 0%;
+        }
+
+    }
+
+    @keyframes zoom {
+        0% {
+            padding: 0px;
+        }
+
+        100% {
+            padding: 100px;
+
+            transform: translateY(-100px) scale(0.7);
+        }
+
+    }
+</style>
+
+<body>
+    <div id="body-1" class="contianer-fluid">
+        <nav class="navbar navbar-expand-lg" style=;">
+            <a class="navbar-brand" href="portfolio.html"> <img src="logo-1.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar"
+                aria-controls="navigation-bar" aria-expanded="false" aria-label="Toggle navigation"
+                style="padding: 15px 30px; color: white; font-weight: bold; ">
+                <img src="hamburger.jpg" width="50vw" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="navigation-bar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="earthboot.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="earth-feedback.html">feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="more-body-1" class="container-fluid">
+        <div id="more-row-1" class="row ">
+
+            <div id="more-1" class="col-12 more-1">
+                <div class="peudo">
+
+                    <h1>BSS ABHI K LIYE ITNA HI <br>THIS IS HIMANHSU KUMAR AMB SIGNING OFF</h1>>
+                </div>
+                <img id="more-img-1" src="more-img1.jpg">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

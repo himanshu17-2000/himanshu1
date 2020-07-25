@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="earth-courses.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>EARTHBOOT COURSES </title>
+    <script src="earthboot.js"></script>
+</head>
+<script>
+    function burr() {
+        var pic;
+        pic = document.getElementById("core-img1");
+        pic.style.filter = "blur(10px) grayscale(100%)";
+        pic.style.transition = "all 0.8s"
+
+    }
+    function no_burr() {
+        var pic;
+        pic = document.getElementById("core-img1");
+        pic.style.filter = "blur(0px)";
+
+    }
+
+</script>
+
+
+<body>
+    <div id="body-1" class="contianer-fluid">
+
+        <nav class="navbar navbar-expand-lg" style=;">
+            <a class="navbar-brand" href="portfolio.html"> <img src="logo-1.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar"
+                aria-controls="navigation-bar" aria-expanded="false" aria-label="Toggle navigation"
+                style="padding: 15px 30px; color: white; font-weight: bold; ">
+                <img src="hamburger.jpg" width="50vw" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="navigation-bar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="earthboot.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="earth-feedback.html">feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="earth-about.html">ABOUT</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        #cor-body-2 {
+            padding-bottom: 0px;
+            position: relative;
+            width: 100%;
+            height: auto;
+            padding-bottom: 20px;
+
+        }
+
+        #cor-body-2 .row {
+
+            width: 100%;
+            height: auto;
+            position: relative;
+            padding: 150px 50px;
+            overflow: hidden;
+
+        }
+
+        .courses {
+
+
+            overflow: hidden;
+            padding: 50px;
+            transition: 0.2s;
+            position: relative;
+
+            position: relative;
+            left: 0%;
+            top: 0%;
+
+        }
+
+        #cor-option1 {
+            position: relative;
+            left: -100%;
+            top: 0%;
+
+            animation: slide 1s ease-out 1 forwards;
+        }
+
+        #cor-option2 {
+            animation: slide1 1s 1s ease-out 1 forwards;
+            position: relative;
+            left: -120%;
+            top: 0%;
+
+        }
+
+        #cor-option3 {
+            animation: slide2 1s 2s ease-out 1 forwards;
+            position: relative;
+            left: -130%;
+            top: 0%;
+
+        }
+
+        #cor-option4 {
+            animation: slide3 1s 3s ease-out 1 forwards;
+            position: relative;
+            left: -140%;
+            top: 0%;
+
+        }
+
+        @keyframes slide {
+
+            0% {
+                left: -100%;
+            }
+
+            90% {
+                left: 2%;
+            }
+
+            100% {
+                left: 0%;
+            }
+
+        }
+
+        @keyframes slide1 {
+
+            0% {
+                left: -100%;
+            }
+
+            90% {
+                left: 2%;
+            }
+
+            100% {
+                left: 0%;
+            }
+
+        }
+
+        @keyframes slide2 {
+
+            0% {
+                left: -100%;
+            }
+
+            90% {
+                left: 2%;
+            }
+
+            100% {
+                left: 0%;
+            }
+
+        }
+
+        @keyframes slide3 {
+
+            0% {
+                left: -100%;
+            }
+
+            90% {
+                left: 2%;
+            }
+
+            100% {
+                left: 0%;
+            }
+
+        }
+
+
+
+
+        .core-option {
+            max-width: 400px;
+            max-height: 400px;
+            text-align: center;
+            position: relative;
+            top: 0px;
+            left: -10%;
+            box-shadow: 10px 15px 10px white;
+            overflow: hidden;
+            border-radius: 20px;
+            background-color: bisque;
+        }
+
+
+
+        .core-option-para {
+
+            text-align: center;
+            color: black;
+            text-decoration: none;
+
+            height: 100%;
+
+
+        }
+
+        .courses a {
+            text-decoration: none;
+
+        }
+
+        .core-option-img img {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+
+        }
+
+        .courses:hover {
+            transform: scale(1.1);
+            z-index: 3;
+        }
+
+        .courses:active {
+            transform: translateY(20px);
+        }
+    </style>
+    <div id="cor-body-2" class="container-fluid">
+        <img id="core-img1" src="er-cor-img1.jpg" alt=""
+            style="position: absolute;top: 0px ;left: 0px ; width: 100%;height:100%; object-fit: cover;">
+        <div class="row " id="cor-row-2">
+            <div class="courses  co-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-123" id="cor-option1">
+                <a href="https://www.udemy.com/" target="blank">
+                    <div onmouseover="burr()" onmouseout="no_burr()" class="core-option" id="core-op-1">
+                        <div id="core-option-img1" class="core-option-img">
+                            <img src="cor-op1.jpg">
+                        </div>
+                        <div id="core-option-para1" class="core-option-para">
+                            <h1>about</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum expedita amet
+                                voluptates
+                                veniam, porro quam. Suscipit numquam facilis consequuntur! Illo, dolorem saepe
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="courses col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 " id="cor-option2">
+                <a href="https://www.coursera.org/browse/information-technology" target="blank">
+                    <div onmouseover="burr()" onmouseout="no_burr()" class="core-option" id="core-op-2">
+                        <div id="core-option-img2" class="core-option-img">
+                            <img src="cor-op2.jpg">
+                        </div>
+                        <div id="core-option-para2" class="core-option-para">
+                            <h1>about</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum expedita amet
+                                voluptates
+                                veniam, porro quam. Suscipit numquam facilis consequuntur! Illo, dolorem saepe
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="courses col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 " id="cor-option3">
+                <a href="https://www.hackerrank.com/skills-verification" target="blank">
+                    <div onmouseover="burr()" onmouseout="no_burr()" class="core-option" id="core-op-3">
+                        <div id="core-option-img3" class="core-option-img">
+                            <img src="cor-op3.jpg">
+                        </div>
+                        <div id="core-option-para2" class="core-option-para">
+                            <h1>about</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum expedita amet
+                                voluptates
+                                veniam, porro quam. Suscipit numquam facilis consequuntur! Illo, dolorem saepe
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="courses col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 " id="cor-option4">
+                <a href="https://www.codecademy.com/" target="blank">
+                    <div onmouseover="burr()" onmouseout="no_burr()" class="core-option" id="core-op-4">
+                        <div id="core-option-img4" class="core-option-img">
+                            <img src="cor-op4.jpg">
+                        </div>
+                        <div id="core-option-para2" class="core-option-para">
+                            <h1>about</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum expedita amet
+                                voluptates
+                                veniam, porro quam. Suscipit numquam facilis consequuntur! Illo, dolorem saepe
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+
+    </div>
+    <footer>
+        <div class="container-fluid ">
+            <div class="row" id="footer">
+                <div class="col-4" id="footer-address">
+                    <h6>HOME ADDRESS :</h6>
+                    <p> 16 vidhya vihar ratlam madhya pradesh</p>
+                    <h6>SHOWROOM ADDRESS :</h6>
+                    <p>221B BAKER STREET , TRAFALGER SQUARE ;</p>
+                </div><br>
+
+                <div class="col-4" id="trademark-and-copyright">
+                    <h6>RIGHTS :</h6>
+                    <P> &copy; HIMANSHU AUTOMOBILES LTD ALL RIGHTS RESERVED </P>
+                </div><br>
+                <hr>
+                <div class="col-4" id="CREDITS">
+                    <h6>CREDITS</h6>
+                    <p>ADVISOR :HIMANSHU KUMAR AMB </p>
+                    <p>SENIOR DEVELOPER : HIMANSHU KUMAR AMB</p>
+                    <p>PRODUCTION MANAGER : HIMASNHU KUMAR AMB ;</p>
+                    <p>PROJECT MANAGER : PANWADI THEKE WALA ;</p>
+                </div><br>
+                <hr>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

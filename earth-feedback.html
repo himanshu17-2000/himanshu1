@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="earth-courses.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <title>EARTHBOOT COURSES </title>
+    <script src="earthboot.js"></script>
+</head>
+
+
+<body>
+    <div id="body-1" class="contianer-fluid">
+
+        <nav class="navbar navbar-expand-lg" style=;">
+            <a class="navbar-brand" href="portfolio.html"> <img src="logo-1.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar"
+                aria-controls="navigation-bar" aria-expanded="false" aria-label="Toggle navigation"
+                style="padding: 15px 30px; color: white; font-weight: bold; ">
+                <img src="hamburger.jpg" width="50vw" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="navigation-bar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="earthboot.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="earth-feedback.html">feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="earth-about.html">ABOUT</a>
+                    </li>
+
+                   
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+
+        }
+
+        #feed-body-1 {
+            width: 100%;
+            height: auto;
+            position: relative;
+            padding: 40px;
+
+        }
+
+        #feed-bg-1 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+
+
+        }
+
+        form {
+
+            max-width: 100%;
+            height: auto;
+            overflow: hidden;
+            text-shadow: 1px 2px 1px yellowgreen;
+            border: 5px solid rgb(110, 110, 77);
+            box-shadow: 0 0 20px yellow;
+
+        }
+
+        #feed-body-1 .row {
+            width: 100%;
+
+            position: relative;
+
+        }
+
+        .row h1 {
+            font-family: 'sofia', cursive;
+            font-weight: bold;
+            font-size: 6vw;
+            color: slategray;
+            text-shadow: 2px 2px 2px yellow;
+            margin-bottom: 10px;
+        }
+
+        .row form h6 {
+            display: inline;
+            justify-content: start;
+            font-family: 'Rowdies', cursive;
+            font-size: 3vw;
+            color: slategray;
+        }
+
+        .row form {
+            padding: 20px;
+        }
+
+        .row form input {
+            border: none;
+            box-shadow: 2px 2px 5px slateblue;
+            height: 5vh;
+            background-color: black;
+            border: 2px solid yellow;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .row form textarea {
+            border: none;
+            box-shadow: 2px 2px 5px slateblue;
+            background-color: black;
+            border: 2px solid yellow;
+            border-radius: 10px;
+            width: 40vw;
+            color: white;
+        }
+
+        button {
+            width: 20vw;
+            background-color: slategrey;
+            color: yellow;
+            font-weight: bolder;
+
+
+
+        }
+    </style>
+
+    <div id="feed-body-1" class="container-fluid">
+        <img id="feed-bg-1" src="background9.jpg" width="100%" alt="">
+        <div class="row" id="feed-row-1">
+            <div class="col-12">
+                <div class="col-12">
+                    <h1 id="feed-head">FEEDBACK</h1>
+                </div>
+                <form>
+                    <hr>
+                    <h6>name</h6>
+                    <br>
+                    <input id="fst-name" type="text" placeholder="first name">
+                    <input id="lst-name" type="text" placeholder="last-name"><br>
+                    <h6>email
+                    </h6><br>
+
+                    <input type="email" placeholder="email" size="46"> <br>
+                    <h6>feedback</h6><br>
+
+                    <textarea id="textarea" cols="60" rows="5"></textarea>
+                    <br>
+                    <br>
+                    <button type="button" onclick="slide()" onmouseover="check()" class="btn">SUBMIT</button>
+                </form>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <footer>
+        <div class="container-fluid ">
+            <div class="row" id="footer">
+                <div class="col-4" id="footer-address">
+                    <h6>HOME ADDRESS :</h6>
+                    <p> 16 vidhya vihar ratlam madhya pradesh</p>
+                    <h6>SHOWROOM ADDRESS :</h6>
+                    <p>221B BAKER STREET , TRAFALGER SQUARE ;</p>
+                </div><br>
+
+                <div class="col-4" id="trademark-and-copyright">
+                    <h6>RIGHTS :</h6>
+                    <P> &copy; HIMANSHU AUTOMOBILES LTD ALL RIGHTS RESERVED </P>
+                </div><br>
+                <hr>
+                <div class="col-4" id="CREDITS">
+                    <h6>CREDITS</h6>
+                    <p>ADVISOR :HIMANSHU KUMAR AMB </p>
+                    <p>SENIOR DEVELOPER : HIMANSHU KUMAR AMB</p>
+                    <p>PRODUCTION MANAGER : HIMASNHU KUMAR AMB ;</p>
+                    <p>PROJECT MANAGER : PANWADI THEKE WALA ;</p>
+                </div><br>
+                <hr>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        function slide() {
+
+            var str = document.getElementById("fst-name").value;
+
+            if (str == "vedant" || str == "swapnil" || str == "sami" || str == "bhargav" || str == "nikhil" || str == "ritik") {
+                document.getElementById("feed-head").innerHTML = "maa chuda " + str + ":)";
+            }
+            else {
+                document.getElementById("feed-head").innerHTML = "THANK YOU " + str + ":)";
+            }
+
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

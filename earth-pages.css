@@ -1,0 +1,120 @@
+/* ........................................language */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#lang-body {
+    text-align: center;
+    position: relative;
+    border-top: 10px solid sienna;
+    margin-bottom: 1px;
+    max-height: 700px;
+    overflow: hidden scroll;
+}
+
+#lang-body #er-lang-img1 {
+    object-fit: cover;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    max-height: 700px;
+}
+
+#er-lg-body-1 {
+    position: absolute;
+    top: 10vw;
+    transform: translate(0%, -5vw);
+    animation: uper 1s ease-out ;
+}
+
+@keyframes uper {
+    0% {
+        top: -50vw;
+    }
+    75% {
+        top: 15vw;
+    }
+    100% {
+        top: 10vw ;
+       
+    }
+}
+
+
+.lang-row-ops {
+    margin-bottom: 5vw;
+}
+
+.lang-options {
+    position: relative;
+    margin: 2%;
+    border: 5px solid sienna;
+    padding: 5vw 25px;
+    width: 20vw;
+   
+}
+
+.lang-options span {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: black;
+    display: inline-block;
+    color: seashell;
+    font-size: 1.5vw;
+    width: 100%;
+}
+
+#lang-ops1 {
+    background-image: url("lang-img1.jpg");
+}
+
+#lang-ops2 {
+    background-image: url("lang-img6.jpg");
+}
+
+#lang-ops3 {
+    background-image: url("lang-img3.jpg");
+}
+
+#lang-ops4 {
+    background-image: url("lang-img4.jpg");
+}
+
+#lang-ops5 {
+    background-image: url("lang-img5.jpg");
+}
+
+#lang-ops6 {
+    background-image: url("lang-img6.jpg");
+}
+
+#lang-ops7 {
+    background-image: url("lang-img7.jpg");
+}
+
+#lang-ops8 {
+    background-image: url("lang-img8.jpg");
+}
+
+.lang-options {
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition-duration: 0.5s;
+}
+
+.lang-options:hover {
+    z-index: 2;
+    transform: scale(1.5);
+    filter: grayscale(0%);
+    opacity: 1;
+}

@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Beth Ellen' rel='stylesheet'>
+        <title>HOP ON</title>
+
+
+    <script>
+        function burr() {
+    var pic;
+    pic = document.getElementById("body-background");
+    pic.style.filter = "blur(5px) grayscale(80%)";
+    pic.style.transition = "all 0.8s"
+
+}
+function no_burr() {
+    var pic;
+    pic = document.getElementById("body-background");
+    pic.style.filter = "blur(0px)";
+
+}
+
+    </script>
+
+</head>
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+body {
+width: 100%;
+height: 700px;
+}
+body #body-background{
+    width: 100%;
+    object-fit: cover;
+    height: 1000px;
+}
+    /* #body {
+        background-image: url("hop-form-background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    } */
+
+    .beta {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        width: 300px;
+        height: 400px;
+        background-color: wheat;
+    }
+    .beta1 h1{
+
+        position: relative;
+        top: 75%;
+        font-weight: bold;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-seri;
+        font-size: 2.5em;
+        color:white;
+        text-shadow: 2px 2px 5px black;
+
+    }
+    .beta2 {
+        z-index: -1;
+        color: white;
+        text-align: center;
+    }
+
+    .beta1,
+    .beta2 {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: 0.5s ease-in;
+
+
+    }
+
+
+    .beta:hover .beta1 {
+        background-image: url();
+        cursor: grab;
+        top: -0%;
+        left: -100%;
+        transition: 1s;
+    }
+
+    .beta .beta1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .beta2 form {
+        padding: 50px 10px;
+
+
+    }
+
+    .beta2 form h1 {
+        font-family: sofia;
+        font-size: 2em;
+        color: rgb(87, 68, 37);
+        text-shadow: 2px 2px 5px rgb(45, 54, 63);
+
+    }
+
+    .beta2 form input {
+        border: none;
+        border-radius: 20px;
+        margin-top: 15px;
+        box-shadow: 2px 2px 15px palevioletred;
+
+    }
+
+    .beta2 form .btn {
+        width: 150px;
+        margin-top: 15px;
+        border-radius: 20px;
+        opacity: 0.7;
+        background-color: white;
+        color: red;
+        font-weight: bold;
+
+    }
+
+    .beta2 form .btn:hover {
+        opacity: 1;
+        background-color: slateblue;
+        color: white;
+
+    }
+
+    #join-us {
+
+        justify-content: start;
+
+        margin-top: 5px;
+        padding: 0 0;
+        margin-top: 20px;
+    }
+
+    #join-us h6 {
+        font-weight: bold;
+        color: rgb(78, 39, 39);
+        text-shadow: 0 0 5px;
+    }
+
+    #btn1,
+    #btn2 {
+        padding: 3px 20px;
+        border: none;
+        border-radius: 50px;
+        text-align: center;
+        display: inline;
+        color: white;
+        
+        font-weight: bold;
+    }
+    #btn1{
+        background-color: red;
+    }
+    #btn2{
+        background-color: rgb(41, 87, 126);
+    }
+
+       
+   
+</style>
+
+<body>
+    <img id="body-background" src="hop-form-background.jpg" alt="" style="position: absolute;">
+   
+        <div onmouseover="burr()" onmouseout="no_burr()" id="beta" class="beta">
+            <div class="beta1" style="background-image: url(form-background.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                 <h1>SUBSCRIBE</h1>
+            </div>
+            <div class="beta2">
+                <form>
+                    <h1>sign up</h1>
+                    <input type="text" placeholder="username" size="27px">
+                    <input type="text" placeholder="password" size="27px">
+                    <br>
+                    <button type="submit" class="btn ">sign up </button>
+                    <div id="join-us">
+                        <h6> join us with </h6>
+                        <button id="btn1"><i class="fa fa-google"></i>+ google</button>
+                        <button id="btn2"><i class="fa fa-facebook"></i>  facebook</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

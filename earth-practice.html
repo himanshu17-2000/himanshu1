@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>EARTHBOOT PRACTICE </title>
+    <script src="earthboot.js"></script>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #pr-body-1 {
+        background-color: steelblue;
+        border-top: 5px solid saddlebrown;
+        position: relative;
+        z-index: 1;
+
+    }
+
+
+
+    .pr-option {
+      
+    
+        transition-duration: 0.5s;
+    
+        padding: 50px;
+    }
+    .pr-option img{
+        box-shadow: 5px 5px 5px wheat;
+        transition: 0.5s;
+        border-radius: 20px;
+    }
+    .pr-option img:hover{
+        box-shadow: 0px 0px 100px skyblue;
+    transform: scale(1.1);
+
+    }
+
+
+
+
+    #pr-body-bg1 {
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .pr-img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+
+    }
+</style>
+
+<body>
+    <div id="body-1" class="contianer-fluid">
+        <nav class="navbar navbar-expand-lg" style=;">
+            <a class="navbar-brand" href="portfolio.html"> <img src="logo-1.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar"
+                aria-controls="navigation-bar" aria-expanded="false" aria-label="Toggle navigation"
+                style="padding: 15px 30px; color: white; font-weight: bold; ">
+                <img src="hamburger.jpg" width="50vw" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="navigation-bar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="earthboot.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="earth-feedback.html">feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="earth-about.html">ABOUT</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+    <div id="pr-body-1" class="contianer-fluid">
+        <img id="pr-body-bg1" src="background12.jpg">
+        <div id="pr-row-1" class="row">
+            <div id="pr-op1" class="pr-option col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <a href="https://practice.geeksforgeeks.org/"><img class="pr-img" src="pr-option-1.jpg" alt=""></a>
+            </div>
+            <div id="pr-op2" class="pr-option col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <a href="https://www.programiz.com/cpp-programming/examples"><img class="pr-img" src="pr-option-2.jpg"
+                        alt=""></a>
+            </div>
+            <div id="pr-op3" class="pr-option col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <a href="https://www.codechef.com/problems/school"><img class="pr-img" src="pr-option-3.jpg" alt=""></a>
+            </div>
+            <div id="pr-op4" class="pr-option col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <a href="https://www.techgig.com/practice"><img class="pr-img" src="pr-option-4.jpg" alt=""></a>
+            </div>
+            <div id="pr-op5" class="pr-option col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <a href="https://www.topcoder.com/challenges/?pageIndex=1"><img class="pr-img" src="pr-option-5.jpg"
+                        alt=""></a>
+            </div>
+            <div id="pr-op6" class="pr-option col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <a href="https://www.hackerrank.com/dashboard"><img class="pr-img" src="pr-option-6.jpg" alt=""></a>
+            </div>
+            <div id="pr-op7" class="pr-option col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <a href="https://simplesnippets.tech/"><img class="pr-img" src="pr-option-7.jpg" alt=""></a>
+            </div>
+            <div id="pr-op8" class="pr-option col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <a href="https://www.coderbyte.com/"><img class="pr-img" src="pr-option-8.jpg" alt=""></a>
+            </div>
+            <div id="pr-op9" class="pr-option col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <a href="https://exercism.io/#explore-languages"><img class="pr-img" src="pr-option-9.jpg" alt=""></a>
+            </div>
+            <div id="pr-op10" class="pr-option col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <a href="https://www.codewars.com/"><img class="pr-img" src="pr-option-10.jpg" alt=""></a>
+            </div>
+            <div id="pr-op11" class="pr-option col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <a href="https://www.spoj.com/"><img class="pr-img" src="pr-option-11.jpg" alt=""></a>
+            </div>
+            <div id="pr-op11" class="pr-option col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <a href="https://www.codingame.com/start"><img class="pr-img" src="pr-option-12.jpg" alt=""></a>
+            </div>
+
+        </div>
+
+
+    </div>
+    <footer>
+        <div class="container-fluid ">
+            <div class="row" id="footer">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" id="footer-address">
+                    <h6>HOME ADDRESS :</h6>
+                    <p> 16 vidhya vihar ratlam madhya pradesh</p>
+                    <h6>SHOWROOM ADDRESS :</h6>
+                    <p>221B BAKER STREET , TRAFALGER SQUARE ;</p>
+                </div><br>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" id="trademark-and-copyright">
+                    <h6>RIGHTS :</h6>
+                    <P> &copy; HIMANSHU AUTOMOBILES LTD ALL RIGHTS RESERVED </P>
+                </div><br>
+                <hr>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" id="CREDITS">
+                    <h6>CREDITS</h6>
+                    <p>ADVISOR :HIMANSHU KUMAR AMB </p>
+                    <p>SENIOR DEVELOPER : HIMANSHU KUMAR AMB</p>
+                    <p>PRODUCTION MANAGER : HIMASNHU KUMAR AMB ;</p>
+                    <p>PROJECT MANAGER : PANWADI THEKE WALA ;</p>
+                </div><br>
+                <hr>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>EARTHBOOT EXPLORE </title>
+    <script src="earthboot.js"></script>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    #exp-body-2 {
+        position: relative;
+        padding: 30px;
+    }
+
+    .exp-row {
+        margin-top: 20px;
+    }
+
+    .exp-row img {
+        object-fit: cover;
+        max-width: 100%;
+    }
+
+    /* .exp-row{
+       border: 5px solid red;
+        
+    }
+    .exp-row div{
+        border: 5px solid seagreen
+    } */
+    .exp-ops {
+        object-fit: cover;
+        width: 100%;
+        height: 500px;
+        position: relative;
+        z-index: 2;
+    }
+
+    #exp-body-2>img {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+
+        z-index: -9;
+
+    }
+
+    .exp-bef {
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    .exp-bef,
+    .exp-bf-div {
+        transition-duration: 0.6s;
+    }
+
+    .exp-bf-div {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        z-index: 3;
+        opacity: 0.6;
+    }
+
+    .exp-bf-div h1 {
+        position: relative;
+        top: 40%;
+        color: black;
+    }
+
+    .exp-bf-div1 {
+        top: 0px;
+        left: -100%;
+
+    }
+
+    .exp-bef:hover .exp-bf-div1 {
+        left: 0%;
+    }
+
+    .exp-bf-div2 {
+        top: -100%;
+        left: 0%;
+
+    }
+
+    .exp-bef:hover .exp-bf-div2 {
+        top: 0%;
+    }
+
+    .exp-bf-div3 {
+        top: 200%;
+        left: 0%;
+
+    }
+
+    .exp-bef:hover .exp-bf-div3 {
+        top: 0%;
+    }
+
+    .exp-bf-div4 {
+        top: -100%;
+        left: -100%;
+
+    }
+
+    .exp-bef:hover .exp-bf-div4 {
+        top: -0%;
+        left: -0%;
+    }
+</style>
+
+<body>
+    <div id="body-1" class="contianer-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="portfolio.html"> <img src="logo-1.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar"
+                aria-controls="navigation-bar" aria-expanded="false" aria-label="Toggle navigation"
+                style="padding: 15px 30px; color: white; font-weight: bold; ">
+                <img src="hamburger.jpg" width="50vw" alt="">
+            </button>
+            <div class="collapse navbar-collapse" id="navigation-bar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="earthboot.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="earth-feedback.html">feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="earth-about.html">ABOUT</a>
+                    </li>
+
+                  
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="exp-body-2" class="container-fluid">
+        <img src="exp-bg.jpg">
+        <div id="exp-row-1" class="row exp-row">
+            <div class="col-xl-12 col-lg-12 col-md-12   col-sm-12 col-xs-12 ">
+                <a href="https://www.facebook.com/Himanshu.kumar.amb" target="blank">
+                    <div class="exp-bef">
+                        <img id="exp-img-1" class="exp-ops" src="exp-img1.jpg" alt="">
+                        <div class="exp-bf-div exp-bf-div1">
+                            <h1>HELLO THIS IS HIMANSHU KUMAR AMB</h1>
+                        </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="exp-row-2" class="row exp-row">
+        <div class="col-xl-6 col-lg-6  col-md-6  col-sm-12 col-xs-12 ">
+            <a href="https://solarsystem.nasa.gov/" target="blank">
+                <div class="exp-bef">
+                    <img id="exp-img-1" class="exp-ops" src="exp-img2.jpg" alt="">
+                    <div class="exp-bf-div exp-bf-div2">
+                        <h1>THIS IS JUST A EXPLORATION OF</h1>
+                    </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-6  col-md-6  col-sm-12 col-xs-12 ">
+        <a href="https://www.udemy.com/topic/animation/" target="blank">
+            <div class="exp-bef">
+                <img id="exp-img-1" class="exp-ops" src="exp-img3.jpg" alt="">
+                <div class="exp-bf-div exp-bf-div2">
+                    <h1>MY ANIMATION SKILLS </h1>
+                </div>
+        </a>
+    </div>
+    </div>
+
+    </div>
+    <div id="exp-row-3" class="row exp-row">
+        <div class="col-xl-9 col-lg-9  col-md-9 col-sm-12 col-xs-12 ">
+            <a href="https://stackoverflow.com/" target="blank">
+                <div class="exp-bef">
+                    <img id="exp-img-1" class="exp-ops" src="exp-img4.jpg" alt="">
+                    <div class="exp-bf-div exp-bf-div3">
+                        <h1>I'VE LEARNED THESE VIA MANY SOURCES ,BOOKS ,BLOGS N ALL </h1>
+                    </div>
+            </a>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-3  col-md-3  col-sm-12 col-xs-12 ">
+        <a href="https://www.nwh.org/be-well/keeping-busy-during-a-self-quarantine" target="blank">
+            <div class="exp-bef">
+                <img id="exp-img-1" class="exp-ops" src="exp-img5.jpg" alt="">
+                <div class="exp-bf-div exp-bf-div3">
+                    <h1>QUARANTINE WAS BUSY AFTER ALL </h1>
+                </div>
+        </a>
+    </div>
+    </div>
+
+    </div>
+
+    <div id="exp-row-4" class="row exp-row">
+        <div class="col-xl-3 col-lg-3  col-md-3  col-sm-12 col-xs-12 ">
+
+            <div class="exp-bef">
+                <img id="exp-img-1" class="exp-ops" src="exp-img6.jpg" alt="">
+                <div class="exp-bf-div exp-bf-div4">
+                    <h1>TAKE CARE </h1>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-xl-9 col-lg-9 col-md-9  col-sm-12 col-xs-12 ">
+
+            <div class="exp-bef">
+                <img id="exp-img-1" class="exp-ops" src="exp-img8.jpg" alt="">
+                <div class="exp-bf-div exp-bf-div4">
+                    <h1>CAIO </h1>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
